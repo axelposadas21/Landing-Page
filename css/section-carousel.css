@@ -1,0 +1,68 @@
+/* CSS Document */
+
+@import url("style.css");
+
+.carousel-section{
+	display: flex;
+	justify-content: center;
+	background-color:#000000;
+}
+
+.carousel-section-cards{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section__card{
+	display: none;
+}
+
+.section__card.show{
+	display: flex;
+	justify-content:space-around;
+	padding: 50px 0;
+	max-height: 500px;
+	
+}
+
+.section__card.content{
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section__card{
+	font-size: 15px;
+	font-weight: 900;
+	line-height: 1;
+	margin-bottom: 10px;
+	
+}
+
+.section__card-text{
+	margin-bottom: 14px;
+	font-size: 25px;
+	color: #FFFFFF;
+	
+}
+
+.section__card-img img{
+	width:100%;
+	min-width: 400px;
+	object-fit: cover;
+}
+
+.carousel-control{
+	align-content: center;
+	right: 25px;
+}
+
+.prev, .next{
+	color:#FFFFFF;
+	background-color:#000000;
+	font-size: 50px;
+	
+}
